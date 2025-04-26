@@ -11,15 +11,22 @@ Question 2:
 A simple but complete CRUD API built with FastAPI (Python) connected to the MySQL database.
 The API allows users to create, read, update, and delete tasks and users.
 
-🛠️ How to Run/Setup the Project
+ How to Run/Setup the Project
 1. Database Setup
 Import the provided SQL script (task_manager.sql) into your MySQL server.
 
 You can import the SQL using tools like phpMyAdmin, MySQL Workbench, or the terminal.
 
+
+ERD Diagram
+
+
+
+
+
 Using MySQL CLI:
 
-bash
+running it on bash workbench
 
 mysql -u root -p < task_manager.sql
 Or manually in Workbench:
@@ -35,30 +42,21 @@ Ensure Python 3.8+ is installed.
 
 Install required Python packages:
 
-bash
+On bash
 
 pip install fastapi uvicorn mysql-connector-python
 Run the API server:
 
-bash
+On bash
 
 python -m uvicorn main:app --reload
 Access the API documentation at:
 👉 http://127.0.0.1:8000/docs
 
-🖼️ Screenshot / ERD Diagram
-[Insert your ERD here]
 
-If you have an image saved locally, you can include it like this in Markdown:
 
-markdown
 
-![ERD Diagram](path_to_your_image/erd.png)
-If you have a link to an online ERD (e.g., dbdiagram.io, draw.io), just paste the link:
-
-👉 View ERD Diagram
-
-📦 Deliverables
+Deliverables
 For Question 1 (Database Design)
 task_manager.sql file
 (includes CREATE DATABASE, CREATE TABLE, constraints, sample INSERT statements).
