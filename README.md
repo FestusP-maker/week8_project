@@ -20,6 +20,8 @@ You can import the SQL using tools like phpMyAdmin, MySQL Workbench, or the term
 
 ERD Diagram
 
+![image](https://github.com/user-attachments/assets/ed298267-0c66-4820-80e8-ff92e7e317aa)
+
 
 
 
